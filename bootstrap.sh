@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get install -y python3 python-pip
 sudo pip install -r requirements.txt
 sudo apt-get install redis-server
-wget https://bitcoin.org/bin/0.9.2.1/bitcoin-0.9.2.1-linux.tar.gz
+wget https://bitcoin.org/bin/insecure/bitcoin-core-0.9.2.1/bitcoin-0.9.2.1-linux.tar.gz
 wget https://download.litecoin.org/litecoin-0.8.7.2/linux/litecoin-0.8.7.2-linux.tar.xz
 tar -zxf *.tar.gz
 tar -xf *.tar.xz
